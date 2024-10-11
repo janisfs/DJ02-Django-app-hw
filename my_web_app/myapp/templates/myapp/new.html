@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Новая страница</title>
-</head>
-<body>
-<h4>Это вторая страница по уроку 2 по Django</h4>
-</body>
-</html>
+{% extends 'myapp/layout.html' %}
+
+{% block title %}
+    <title>Вторая страница</title>
+{% endblock %}
+
+{% block content %}
+
+<h4>Это вторая страница по уроку 2 по изучению фреймворка Django</h4>
+
+{% endblock %}

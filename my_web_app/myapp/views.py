@@ -6,3 +6,4 @@ def index(request):
 
 def new(request):
     return render(request, 'myapp/new.html')
+
